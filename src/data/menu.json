@@ -25,5 +25,14 @@
     "availability": ["BREAKFAST", "LUNCH", "DINNER"],
     "price": "100",
     "image": "https://freshstore.pk/Content/Products/ProductImages/10259/Home.webp"
+  },
+  {
+    "_id": 4,
+    "name": "Bbq Chicken",
+    "type": "Non-Veg",
+    "cuisine": "Arabian",
+    "availability": ["BREAKFAST", "DINNER"],
+    "price": "390",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz5CvPKWe_9oi3zeeGxe99CnSHFGN2LFaliEveNDPWX2T0emmILMqlhd5JNisRIC9WPtc&usqp=CAU"
   }
 ]

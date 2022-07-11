@@ -50,6 +50,7 @@ a {
   text-decoration: none;
   cursor: pointer;
   color: $color-dark;
+  font-weight: 600;
   &:hover {
     color: $color-primary;
   }
@@ -481,4 +482,18 @@ button {
 .ml-auto,
 .mx-auto {
   margin-left: auto !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: $color-primary;
+}
+::-webkit-scrollbar-track {
+  background-color: $color-shadow;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }

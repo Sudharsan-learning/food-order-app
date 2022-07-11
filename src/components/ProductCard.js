@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useCart } from "react-use-cart";
 
 function ProductCard({ data }) {
-  const { addItem, inCart, isEmpty } = useCart();
+  const { addItem, inCart } = useCart();
 
   const location = useLocation();
 

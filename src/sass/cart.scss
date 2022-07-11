@@ -1,5 +1,7 @@
 .cart-container-parent {
   width: 60%;
+  height: 400px;
+  overflow-y: scroll;
 }
 
 .cart-container {
@@ -35,10 +37,10 @@
   font-size: 1rem;
 }
 .cart-name-price-container {
-  width: 300px;
+  width: 200px;
 }
 .cart-product-quantity {
-  width: 200px;
+  width: 150px;
 }
 .cart-total-price {
   width: 100px;
