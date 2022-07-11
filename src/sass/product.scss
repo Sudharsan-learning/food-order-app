@@ -1,0 +1,85 @@
+.product-container {
+  border-radius: 1rem;
+  position: relative;
+  padding: 1rem;
+  margin: 1.5rem;
+  width: 250px;
+  -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -moz-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-shadow: 0 5px 15px $color-shadow;
+
+  &:hover {
+    box-shadow: 0 5px 15px $color-primary-light;
+  }
+}
+.product-image {
+  width: 200px;
+  height: 200px;
+  place-items: center;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  -moz-transition: transform 1s, -moz-transform 1s;
+  transition: transform 1s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  margin: 5%;
+}
+.product-light-text {
+  font-size: 0.6rem;
+}
+.circle {
+  // background: $color-primary;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-image: linear-gradient(-180deg, $color-primary-light, $color-primary-light);
+  // background: radial-gradient(circle at 0px 0px, $color-dark, $color-primary);
+  // background-image: -webkit-gradient(linear, left top, left bottom, from($color-primary), to($color-primary));
+  // box-shadow: 0 0 1px #aaa, inset 0 2px 3px #fff;
+}
+
+.circle-text {
+  font-size: 0.5rem;
+  color: $color-light;
+  font-weight: 800;
+}
+.product-cart-button {
+  background-image: linear-gradient(-180deg, $color-primary, $color-primary-dark);
+  border-radius: 1.5rem;
+  color: $color-light;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+  overflow: hidden;
+  padding: 0.7rem 1rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  white-space: nowrap;
+  // width: 50%;
+  border: 0;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  -moz-transition: transform 1s, -moz-transform 1s;
+  transition: transform 1s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.cuisine {
+  border-radius: 5px;
+  height: 20px;
+  width: 70px;
+  margin: 0;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: $color-dark-light;
+}
