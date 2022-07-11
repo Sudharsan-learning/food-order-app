@@ -1,0 +1,72 @@
+[
+  {
+    "_id": 1,
+    "name": "Dosa",
+    "type": "Veg",
+    "cuisine": "South Indian",
+    "price": "50",
+    "image": "http://vishalzala.com/anandbakers/wp-content/uploads/2021/01/Untitled-design-2021-01-27T114155.705.png",
+    "orderDate": "07-11-2022",
+    "orderTime": "08:35 PM"
+  },
+  {
+    "_id": 2,
+    "name": "Chappathi",
+    "type": "Veg",
+    "cuisine": "North Indian",
+    "price": "40",
+    "image": "https://5.imimg.com/data5/KX/CP/MY-26831531/half-cooked-chapati-500x500.jpg",
+    "orderDate": "07-11-2022",
+    "orderTime": "08:35 PM"
+  },
+  {
+    "_id": 3,
+    "name": "Chicken",
+    "type": "Non-Veg",
+    "cuisine": "South Indian",
+    "price": "100",
+    "image": "https://freshstore.pk/Content/Products/ProductImages/10259/Home.webp",
+    "orderDate": "07-06-2022",
+    "orderTime": "08:35 PM"
+  },
+  {
+    "_id": 4,
+    "name": "Chicken Kothu Parotta",
+    "type": "Non-Veg",
+    "cuisine": "South Indian",
+    "price": "200",
+    "image": "https://www.tasteofchennainy.com/admin/products/11bc3f18100f98ac578de4db0d95efb5.png",
+    "orderDate": "07-07-2022",
+    "orderTime": "08:35 PM"
+  },
+  {
+    "_id": 5,
+    "name": "Schezwan Gobhi Fried Rice",
+    "type": "Veg",
+    "cuisine": "Chinese",
+    "price": "150",
+    "image": "https://nearbyshop.in/images/detailed/18/image_62.png",
+    "orderDate": "06-25-2022",
+    "orderTime": "08:35 PM"
+  },
+  {
+    "_id": 6,
+    "name": "Bbq Chicken",
+    "type": "Non-Veg",
+    "cuisine": "Arabian",
+    "price": "390",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz5CvPKWe_9oi3zeeGxe99CnSHFGN2LFaliEveNDPWX2T0emmILMqlhd5JNisRIC9WPtc&usqp=CAU",
+    "orderDate": "06-11-2022",
+    "orderTime": "08:35 PM"
+  },
+  {
+    "_id": 7,
+    "name": "Dosa",
+    "type": "Veg",
+    "cuisine": "South Indian",
+    "price": "50",
+    "image": "http://vishalzala.com/anandbakers/wp-content/uploads/2021/01/Untitled-design-2021-01-27T114155.705.png",
+    "orderDate": "07-12-2022",
+    "orderTime": "12:35 AM"
+  }
+]

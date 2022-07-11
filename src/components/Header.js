@@ -7,12 +7,12 @@ function Header() {
       <section className="container">
         <nav className="nav-container">
           <ul className="row align-item-center space-between">
-            <li className="logo-container">
+            <li className="logo-container ml-3">
               <h4 className="primary-color logo-font">
                 Your Food <br /> Order
               </h4>
             </li>
-            <div className="row">
+            <div className="row mr-3">
               <li className="nav-link">
                 <Link to="/">Receipe</Link>
               </li>
