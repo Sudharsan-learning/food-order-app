@@ -23,7 +23,7 @@ function Cart() {
                     <div className="cart-product-image ml-3">
                       <img src={data.image} alt="" className="img" />
                     </div>
-                    <div>
+                    <div className="cart-name-price-container">
                       <div className="cart-product-name">
                         <h4>{data.name}</h4>
                       </div>
@@ -56,25 +56,27 @@ function Cart() {
                 ))}
             </div>
             <div className="checkout-container ml-3 mr-3 ">
-              <h2 className="text-center">Order Summary</h2>
-              <div className="checkout-total row mt-4 row space-between">
-                <p>Item Total</p>
-                <p>&#8377;{Number(cartTotal).toFixed(2)}</p>
-              </div>
-              <div className="checkout-total row mt-3 row space-between">
-                <p>Taxes & Charges(18%)</p>
-                <p>&#8377;{Number(cartTotal * 0.18).toFixed(2)}</p>
-              </div>
-              <div className="checkout-total row mt-4 row space-between">
-                <h3>Grand Total</h3>
-                <h3>&#8377;{Number(cartTotal + cartTotal * 0.05).toFixed(2)}</h3>
-              </div>
-              <div className="mt-4 text-center">
-                <button type="button" className="product-cart-button">
-                  <Link to="/order-success" className="button-text" onClick={() => emptyCart()}>
-                    Place Order
-                  </Link>
-                </button>
+              <div className="checkout">
+                <h2 className="text-center">Order Summary</h2>
+                <div className="checkout-total row mt-4 row space-between">
+                  <p>Item Total</p>
+                  <p>&#8377;{Number(cartTotal).toFixed(2)}</p>
+                </div>
+                <div className="checkout-total row mt-3 row space-between">
+                  <p>Taxes & Charges(18%)</p>
+                  <p>&#8377;{Number(cartTotal * 0.18).toFixed(2)}</p>
+                </div>
+                <div className="checkout-total row mt-4 row space-between">
+                  <h3>Grand Total</h3>
+                  <h3>&#8377;{Number(cartTotal + cartTotal * 0.18).toFixed(2)}</h3>
+                </div>
+                <div className="mt-4 text-center">
+                  <button type="button" className="product-cart-button">
+                    <Link to="/order-success" className="button-text" onClick={() => emptyCart()}>
+                      Place Order
+                    </Link>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
