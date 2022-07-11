@@ -4,7 +4,7 @@ import ProductCard from "../components/ProductCard";
 import receipe from "../data/menu.json";
 
 function Product() {
-  console.log(receipe, "receipe");
+  // console.log(receipe, "receipe");
 
   const [receipeData, setReceipeData] = useState(receipe);
 
