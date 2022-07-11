@@ -1,0 +1,29 @@
+[
+  {
+    "_id": 1,
+    "name": "Dosa",
+    "type": "Veg",
+    "cuisine": "South Indian",
+    "availability": ["BREAKFAST", "LUNCH"],
+    "price": "50",
+    "image": "http://vishalzala.com/anandbakers/wp-content/uploads/2021/01/Untitled-design-2021-01-27T114155.705.png"
+  },
+  {
+    "_id": 2,
+    "name": "Chappathi",
+    "type": "Veg",
+    "cuisine": "North Indian",
+    "availability": ["BREAKFAST", "LUNCH"],
+    "price": "40",
+    "image": "https://5.imimg.com/data5/KX/CP/MY-26831531/half-cooked-chapati-500x500.jpg"
+  },
+  {
+    "_id": 3,
+    "name": "Chicken",
+    "type": "Non-Veg",
+    "cuisine": "South Indian",
+    "availability": ["BREAKFAST", "LUNCH", "DINNER"],
+    "price": "100",
+    "image": "https://pngimg.com/uploads/fried_chicken/fried_chicken_PNG14091.png"
+  }
+]

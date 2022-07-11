@@ -1,0 +1,37 @@
+.cart-container-parent {
+  width: 60%;
+}
+
+.cart-container {
+  border-radius: 1rem;
+  position: relative;
+  padding: 1rem;
+  -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -moz-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-shadow: 0 5px 15px $color-shadow;
+}
+
+.checkout-container {
+  width: 20%;
+}
+
+.cart-product-image {
+  width: 100px;
+}
+.remove-text {
+  color: $color-primary;
+  font-size: 0.7rem;
+}
+.quantity-symbol {
+  font-size: 1rem;
+}
+.quantity-button {
+  padding: 5px 10px 5px 10px;
+  font-size: 1rem;
+}
+.checkout-total {
+  p {
+    font-size: 0.7rem;
+  }
+}
