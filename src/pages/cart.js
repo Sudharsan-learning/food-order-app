@@ -19,7 +19,7 @@ function Cart() {
             <div className="shoping-cart">
               <h3 className="ml-5">Shopping Cart ({totalItems})</h3>
             </div>
-            <div className="row space-evenly mt-3">
+            <div className="row space-evenly mt-3 flex-wrap">
               <div className="cart-container-parent mb-3">
                 {items &&
                   items.map((data) => (
