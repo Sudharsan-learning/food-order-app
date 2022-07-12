@@ -36,7 +36,7 @@ function Order() {
   const submit = (data) => {
     // console.log(data.search);
     const search = data.search;
-    let searchData = past30daysOrder.filter((data) => data.name.includes(search));
+    let searchData = past30daysOrder.filter((d) => d.name.includes(search));
 
     setOrderData(searchData);
 
