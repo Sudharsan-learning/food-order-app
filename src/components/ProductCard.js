@@ -56,9 +56,7 @@ function ProductCard({ data }) {
           </span>
         </div> */}
 
-        <div className="product-name mt-3">
-          <h3 className="text-center ">{data.name && data.name}</h3>
-        </div>
+        <div className="product-name mt-3">{data.name && <h3 className="text-center ">{data.name}</h3>}</div>
         <div className="product-price-cart-container mt-3 row space-around align-item-center">
           {data.price && <h4 className="product-price"> &#8377;{Number(data.price).toFixed(2)}</h4>}
           {location.pathname === "/order" ? (
