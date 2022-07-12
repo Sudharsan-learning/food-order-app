@@ -62,9 +62,6 @@ function Filter({ order, setOrderData, reset }) {
         break;
 
       case "bought":
-        // const foundDuplicateName = values.find((nnn, index) => {
-        //   return values.find((x, ind) => x.name === nnn.name && index !== ind);
-        // });
         let boughtReceipe = order.find((data, i) => {
           return order.find((a, idx) => a.name === data.name && i !== idx);
         });
