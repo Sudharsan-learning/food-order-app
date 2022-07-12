@@ -55,3 +55,18 @@
     font-size: 0.7rem;
   }
 }
+@media only screen and (max-width: 440px) {
+  .cart-container {
+    width: 200px;
+  }
+  .cart-name-price-container {
+    width: auto;
+    text-align: center;
+  }
+  .cart-product-quantity {
+    width: auto;
+  }
+  .cart-total-price {
+    width: auto;
+  }
+}
